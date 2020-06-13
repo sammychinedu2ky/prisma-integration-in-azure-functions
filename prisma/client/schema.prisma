@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+   output   = "./client"
+   binaryTargets = "windows"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model todo {
+  completed Boolean? @default(false)
+  id        Int      @default(autoincrement()) @id
+  todo      String
+}

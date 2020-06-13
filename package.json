@@ -1,0 +1,13 @@
+{
+  "name": "function",
+  "version": "",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "",
+  "dependencies": {
+    "@prisma/cli": "^2.0.0",
+    "@prisma/client": "^2.0.0"
+  }
+}
